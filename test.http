@@ -1,0 +1,24 @@
+POST https://nm7kab20jh.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+
+{
+  "name": "FluffyKittens",
+  "age": "5"
+}
+
+########################################################################
+GET https://nm7kab20jh.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+
+
+########################################################################
+GET https://nm7kab20jh.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/FluffyKittens
+
+
+########################################################################
+PUT https://nm7kab20jh.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/FluffyKittens
+
+{
+  "age": "100"
+}
+
+########################################################################
+DELETE https://nm7kab20jh.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/FluffyKittens
